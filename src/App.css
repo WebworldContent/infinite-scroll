@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .notify {
+  margin-top: 10%;
+  width: 400px;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+
+#scrollableDiv {
+  max-height: 450px;
+  overflow: auto;
+}
+
+.notify h2 {
+  background-color: aqua;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+.notify .inner-box ul{
+  list-style: none;
+  text-align: left;
+}
+
+.notify .inner-box ul li{
+  margin: 15px;
+}
+
