@@ -13,8 +13,12 @@
 }
 
 #scrollableDiv {
-  max-height: 450px;
-  overflow: auto;
+  height: 400px; 
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #24d9d9  #eee;
+  scroll-behavior: smooth;
 }
 
 .notify h2 {
