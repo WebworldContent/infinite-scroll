@@ -6,14 +6,14 @@
 }
 
 .App .notify {
-  margin-top: 10%;
-  width: 400px;
+  width: 500px;
+  height: 100vh;
   padding: 10px;
   background-color: antiquewhite;
 }
 
 #scrollableDiv {
-  height: 400px; 
+  height: 85vh; 
   overflow-y: auto;
   overflow-x: hidden;
   scrollbar-width: thin;
@@ -29,10 +29,19 @@
 
 .notify .inner-box ul{
   list-style: none;
-  text-align: left;
+  text-align: center;
 }
 
 .notify .inner-box ul li{
-  margin: 15px;
+  margin: 5px;
 }
 
+.content-discription {
+  background-color: aliceblue;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
